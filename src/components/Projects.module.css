@@ -1,0 +1,13 @@
+.mainDiv {
+    /* background-color: black; */
+    padding: 50px 0;
+}
+
+.innerDiv {
+    padding: 10px 120px;
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 30px;
+}

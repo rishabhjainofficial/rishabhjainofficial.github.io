@@ -1,0 +1,125 @@
+.mainDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.nameDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+.icons {
+    height: 20px;
+    width: 20px;
+}
+
+.contactLink {
+    border-image: linear-gradient(#70ff00, #ffffff) 1;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 7;
+    padding: 1px 5px;
+}
+
+.hamburgerMenuDiv {
+    display: none;
+}
+
+.mobileNavDiv {
+    display: none;
+}
+
+@media only screen and (max-width: 64em) {
+    .mainDiv {
+        padding: 10px 50px;
+    }
+
+    .navDiv {
+        display: none;
+    }
+
+    .leftDiv {
+        display: none;
+    }
+
+    .hamburgerMenuDiv {
+        display: block;
+    }
+
+    .hamburgerMenu {
+        color: #ffffff;
+        font-size: xx-large;
+    }
+
+    .mobileNavDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 30px !important;
+        z-index: 1;
+        animation: forwards;
+    }
+
+    .mobileNavLinksUl {
+        list-style-type: none;
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    .mainDiv {
+        padding: 5px 25px;
+    }
+
+    .navDiv {
+        display: none;
+    }
+
+    .leftDiv {
+        display: none;
+    }
+
+    .hamburgerMenuDiv {
+        display: block;
+    }
+
+    .hamburgerMenu {
+        color: #ffffff;
+        font-size: xx-large;
+    }
+
+    .mobileNavDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 30px !important;
+        z-index: 1;
+        animation: forwards;
+    }
+
+    .mobileNavLinksUl {
+        list-style-type: none;
+    }
+}

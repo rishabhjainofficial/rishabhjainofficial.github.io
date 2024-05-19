@@ -1,0 +1,158 @@
+.greetingDiv {
+    padding: 100px 120px;
+}
+
+.greetingText {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.greenText {
+    color: #70FF00;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.positionText {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.experienceDiv {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.experienceNo {
+    font-weight: 600;
+    font-size: 50px;
+    color: #4F4F4F;
+}
+
+.experienceText {
+    color: #828282;
+}
+
+.yearsOfExperienceDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-right: 50px;
+}
+
+.greetingRightDiv {
+    text-align: right;
+}
+
+.mainImg {
+    height: 400px;
+}
+
+@media only screen and (max-width: 64em) {
+    .greetingDiv {
+        padding: 20px 80px;
+    }
+
+    .greetingText {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .greenText {
+        color: #70FF00;
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    .positionText {
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .experienceDiv {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .experienceNo {
+        font-weight: 600;
+        font-size: 35px;
+        color: #4F4F4F;
+    }
+
+    .experienceText {
+        color: #828282;
+        font-size: 10px;
+    }
+
+    .yearsOfExperienceDiv {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        padding-right: 20px;
+    }
+
+    .greetingRightDiv {
+        text-align: right;
+    }
+
+    .mainImg {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    .greetingDiv {
+        padding: 10px 40px;
+    }
+
+    .greetingText {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .greenText {
+        color: #70FF00;
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .positionText {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .experienceDiv {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .experienceNo {
+        font-weight: 600;
+        font-size: 25px;
+        color: #4F4F4F;
+    }
+
+    .experienceText {
+        color: #828282;
+        font-size: 10px;
+    }
+
+    .yearsOfExperienceDiv {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        padding-right: 20px;
+    }
+
+    .greetingRightDiv {
+        display: none;
+        text-align: right;
+    }
+}

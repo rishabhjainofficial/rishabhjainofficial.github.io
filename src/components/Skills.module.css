@@ -1,0 +1,22 @@
+.mainDiv {
+    background-color: #161616;
+}
+
+.innerDiv {
+    padding: 10px 120px;
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.skillsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.skillDiv {
+    padding: 10px 20px;
+}

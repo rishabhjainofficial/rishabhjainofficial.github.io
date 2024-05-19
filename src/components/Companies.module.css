@@ -1,0 +1,49 @@
+.mainDiv {
+    background-color: #161616;
+}
+
+.innerDiv {
+    padding: 10px 120px;
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.contactLink {
+    border-image: linear-gradient(#70ff00, #ffffff) 1;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 7;
+    margin: auto;
+    padding: 10px;
+    width: 30%;
+}
+
+.lineDiv {
+    border-left: 3px solid #70ff00;
+    height: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.circleDiv {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #70ff00;
+    background-color: black;
+    position: absolute;
+    pointer-events: none;
+    left: -14px;
+    top: 50px;
+    z-index: 1;
+}
+
+.common_padding {
+    padding: 0 50px;
+}

@@ -1,0 +1,23 @@
+.mainDiv {
+    /* background-color: #161616; */
+}
+
+.innerDiv {
+    padding: 10px 120px;
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.submit_btn {
+    border-image: linear-gradient(#70ff00, #ffffff) 1;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 7;
+    margin: auto;
+    padding: 10px;
+    width: 30%;
+    background-color: transparent;
+}
